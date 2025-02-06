@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom Booking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Classroom Booking System</h1>
+    </header>
+    <main>
+        <section id="booking-form">
+            <h2>Book a Classroom</h2>
+            <form id="form">
+                <label for="building">Building Name:</label>
+                <select id="building" name="building">
+
+                    <option value="101">Tech Park</option>
+                    <option value="102">Tech Tower</option>
+                    <option value="103">University Building</option>
+                    <option value="104">Hi-Tech</option>
+                    <option value="105">CRC</option>
+                    <option value="106">Law College</option>
+                    <option value="107">Dental Block</option>
+                </select>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+                <button type="button" id="show-available-rooms">Show Available Rooms</button>
+            </form>
+            <div style="text-align: center;">
