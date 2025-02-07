@@ -48,6 +48,8 @@ select, input[type="date"], input[type="time"], button {
 
 button {
     background: #007bff; /* Button color */
+    margin-top: 10px; /* Add margin for spacing */
+
     color: white;
     border: none;
     cursor: pointer;
@@ -55,6 +57,11 @@ button {
 
 button:hover {
     background: #0056b3; /* Darker button on hover */
+}
+
+.duration {
+    margin-top: 50px;
+    margin-bottom: 500px;
 }
 
 #available-classrooms {

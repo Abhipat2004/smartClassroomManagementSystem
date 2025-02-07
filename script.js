@@ -27,6 +27,9 @@ function updateAvailability() {
 }
 
 document.getElementById('show-available-rooms').addEventListener('click', function() {
+    const duration = document.getElementById('duration').value; // Get the duration
+    console.log(`Duration for booking: ${duration} hours`); // Debug log
+
     console.log("Show Available Rooms button clicked."); // Debug log
     document.getElementById('available-rooms').style.display = 'block'; // Ensure the section is visible
     updateAvailability(); // Call to update available rooms
